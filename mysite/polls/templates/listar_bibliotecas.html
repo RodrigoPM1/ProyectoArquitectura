@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bibliotecas</title>
+</head>
+<body>
+    <h1>Lista de Bibliotecas</h1>
+    <ul>
+        {% for biblioteca in bibliotecas %}
+            <li>{{ biblioteca.nombre }} - {{ biblioteca.ciudad }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
